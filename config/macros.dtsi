@@ -2,19 +2,19 @@ macro_control_space: macro_control_space{
 compatible = "zmk,behavior-macro";
 label = "macro_control_space";
 #binding-cells = <0>;
-bindings = <&kp SPACE>;
+bindings = <&sk LEFT_CONTROL>, <&kp SPACE>;
 };
 macro_command_minus: macro_command_minus{
 compatible = "zmk,behavior-macro";
 label = "macro_command_minus";
 #binding-cells = <0>;
-bindings = <&kp MINUS>;
+bindings = <&sk LEFT_COMMAND>, <&kp MINUS>;
 };
 macro_command_plus: macro_command_plus{
 compatible = "zmk,behavior-macro";
 label = "macro_command_plus";
 #binding-cells = <0>;
-bindings = <&kp PLUS>;
+bindings = <&sk LEFT_COMMAND>, <&kp PLUS>;
 };
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
