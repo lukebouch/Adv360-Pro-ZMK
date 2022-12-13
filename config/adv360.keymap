@@ -17,7 +17,6 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/rgb.h>
 #include <dt-bindings/zmk/backlight.h>
-#include <dt-bindings/zmk/keys.h>
 
 / {
   behaviors {
@@ -80,11 +79,11 @@
 
         layer_Custom_Layer__1 {
             bindings = <
-         &trans  &trans                  &trans                &trans  &trans  &trans                    &trans  &trans                &trans  &trans                &trans               &trans  &trans           &trans
-         &trans  &trans  &macro_command_shift_w                &trans  &trans  &trans                    &trans  &trans                &trans  &trans                &trans               &trans  &trans           &trans
-         &trans  &trans                  &trans                &trans  &trans  &trans            &sk LEFT_SHIFT  &trans                &trans                                             &trans  &trans  &sk RIGHT_SHIFT  &trans  &trans  &trans  &trans  &trans           &trans
- &kt LEFT_SHIFT  &trans                  &trans  &macro_center_window  &trans  &trans                    &trans  &trans                &trans  &trans                &trans  &macro_command_plus  &trans           &trans  &trans  &trans  &trans  &trans  &trans  &kt RIGHT_SHIFT
-         &trans  &trans                  &trans                &trans  &trans  &trans                    &trans  &trans  &macro_command_minus  &trans  &macro_control_space               &trans  &trans           &trans  &trans  &trans
+ &trans  &trans                  &trans                &trans  &trans  &trans            &trans  &trans                &trans  &trans                &trans               &trans  &trans  &trans
+ &trans  &trans  &macro_command_shift_w                &trans  &trans  &trans            &trans  &trans                &trans  &trans                &trans               &trans  &trans  &trans
+ &trans  &trans                  &trans                &trans  &trans  &trans            &trans  &trans                &trans                                             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans                  &trans  &macro_center_window  &trans  &trans            &trans  &trans                &trans  &trans                &trans  &macro_command_plus  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans                  &trans                &trans  &trans  &trans            &trans  &trans  &macro_command_minus  &trans  &macro_control_space               &trans  &trans  &trans  &trans  &trans
             >;
         };
 
