@@ -79,11 +79,11 @@
 
         layer_Custom_Layer__1 {
             bindings = <
- &trans  &trans                  &trans  &trans                  &trans  &trans            &trans  &trans                &trans  &trans                &trans               &trans  &trans  &trans
- &trans  &trans  &macro_command_shift_w  &trans  &macro_search_for_repo  &trans            &trans  &trans                &trans  &trans                &trans               &trans  &trans  &trans
- &trans  &trans                  &trans  &trans                  &trans  &trans            &trans  &trans                &trans                                             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans                  &trans  &trans                  &trans  &trans            &trans  &trans                &trans  &trans                &trans  &macro_command_plus  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans                  &trans  &trans                  &trans  &trans            &trans  &trans  &macro_command_minus  &trans  &macro_control_space               &trans  &trans  &trans  &trans  &trans
+ &trans  &trans                  &trans  &trans                  &trans                &trans            &trans  &trans                &trans  &trans                &trans               &trans  &trans  &trans
+ &trans  &trans  &macro_command_shift_w  &trans  &macro_search_for_repo  &macro_open_terminal            &trans  &trans                &trans  &trans                &trans               &trans  &trans  &trans
+ &trans  &trans                  &trans  &trans                  &trans                &trans            &trans  &trans                &trans                                             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans                  &trans  &trans                  &trans                &trans            &trans  &trans                &trans  &trans                &trans  &macro_command_plus  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans                  &trans  &trans                  &trans                &trans            &trans  &trans  &macro_command_minus  &trans  &macro_control_space               &trans  &trans  &trans  &trans  &trans
             >;
         };
 
